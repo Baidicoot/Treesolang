@@ -16,3 +16,15 @@ if that fails, run:
 ```
 ghc Main.hs -XGADTs -XFlexibleInstances
 ```
+
+## Executing
+Once compiled, run:
+```
+Main <your-program-file-here>
+```
+and it will hopefully go something like:
+```
+== SUCCESS ==
+<output>
+```
+unless you did something wrong, in which case it will give you an unhelpful error. I learnt from haskell in multiple ways.
